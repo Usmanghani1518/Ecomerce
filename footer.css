@@ -1,0 +1,10 @@
+.link{
+    color: gray;
+    /* transition: color 0.9s ease-in-out; */
+    
+}
+.link:hover{
+    color: black;
+    /* font-weight: 500; */
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,83 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.containerr {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    /* width: 60%; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ch2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    /* width: 60%; */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.clabel {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.cinput[type="text"],
+.cinput[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.cbutton {
+    background-color: #fa4;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cbutton:hover {
+    background-color: #fa4;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .containerr {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    .cinput[type="text"],
+    .cinput[type="email"],
+    textarea {
+        font-size: 14px;
+    }
+}

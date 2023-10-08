@@ -1,0 +1,38 @@
+/* brands.css */
+.brand {
+    padding: 20px 0; /* Add some spacing around the brand section */
+}
+
+.brand h1{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.brand img {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100%;
+    height: auto; /* Ensure the images maintain their aspect ratio */
+}
+.brand .row{
+      background-color: #fff; 
+}
+.brand .row .col-lg-2,
+.brand .row .col-md-2,
+.brand .row .col-sm-4,
+.brand .row .col-6 {
+    padding: 10px; 
+    /* margin: 10px; Add margin between columns */
+    /* background-color: #fff; Background color for the boxes */
+    /* border: 1px solid #e0e0e0; Border for the boxes */
+    border-radius: 8px; /* Rounded corners for the boxes */
+    text-align: center;
+    transition: transform 0.2s ease-in-out; /* Add a smooth hover effect */
+}
+
+/* .brand .row .col-lg-2:hover,
+.brand .row .col-md-2:hover,
+.brand .row .col-sm-4:hover,
+.brand .row .col-6:hover {
+    transform: scale(1.05); /* Enlarge the box slightly on hover */
+/* }  */
